@@ -11,10 +11,10 @@ $cfItem->scriptId = "custrecord_pslad_item";
 $cfItem->value->internalId = 45;
 
 
-// Descripcion del articulo
-//$cfItem_Desc = new StringCustomFieldRef();
-//$cfItem_Desc->scriptId = "custrecord_pslad_item_desc";
-//$cfItem_Desc->value = "Test Articulo";
+Descripcion del articulo
+$cfItem_Desc = new StringCustomFieldRef();
+$cfItem_Desc->scriptId = "custrecord_pslad_item_desc";
+$cfItem_Desc->value = "Test Articulo";
 
 
 // Cantidad del articulo
@@ -57,7 +57,8 @@ $basicCustomRecord = new CustomRecord();
 $basicCustomRecord->recType = new RecordRef();
 $basicCustomRecord->recType->internalId = "326"; 
 $basicCustomRecord->customFieldList = new CustomFieldList();
-$basicCustomRecord->customFieldList->customField = array($cfItem, $cfQuantity, $cfCost, $cfCostTotal, $cfPriceUnit, $cfPriceTotal, $cfOpportunity); // como crear un array dinamico donde se agreguen N cantidad de articulos desde un json
+$basicCustomRecord->customFieldList->customField = array($cfItem, $cfItem_Desc, $cfQuantity, $cfCost, $cfCostTotal, $cfPriceUnit, $cfPriceTotal, $cfOpportunity); 
+// como crear un array dinamico donde se agreguen N cantidad de articulos desde un json
 
 $addRequest = new AddRequest();
 $addRequest->record = $basicCustomRecord;

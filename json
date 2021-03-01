@@ -1,0 +1,7 @@
+[{ "title":"Descripcion del titulo", "memo" : "Descripcion del memo" , "entity" : "50" , "entitystatus": "8" , "department" : "20", "class":"126","location":"5", 
+"cat_cliente": "2" , "item_global" : "45" , "cantidad":"1", "monto":"344", 
+"item":"45", "descripcion":"Test Articulo", "quantity":"2", "costo": "150.15", "costototal":"300.30", "preciounit":"280.50", "preciototal":"561.20"}
+,
+{ "title":"Descripcion del titulo", "memo" : "Descripcion del memo" , "entity" : "50" , "entitystatus": "8" , "department" : "20", "class":"126","location":"5", 
+"cat_cliente": "2" , "item_global" : "45" , "cantidad":"1", "monto":"344", 
+"item":"50", "descripcion":"Test Articulo num 2", "quantity":"1", "costo": "100", "costototal":"100", "preciounit":"179.20", "preciototal":"170.20"}]

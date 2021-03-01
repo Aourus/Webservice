@@ -2,7 +2,7 @@
 require_once 'toolkit/NWebService.php';
 $service = new WebService();
 
-
+//// INICIO CABECERA 
 //// CREATE OPPORTUNITY
 
 $po = new Opportunity();
@@ -78,7 +78,9 @@ if (!$addResponse->writeResponse->status->isSuccess) {
     $poId = $addResponse->writeResponse->baseRef->internalId;
     echo "OPPORTUNITY ADDED SUCCESSFULLY, id " . $poId;
 }
+////FIN DE LA CABECERA
 
+//INICIO DE LOS ITEMS QUE PUEDEN SER MUCHOS
 
 //// CREATE CUSTOM RECORD DESGLOSE DE SERVICIO
 

@@ -4,4 +4,4 @@
 ,
 { "title":"Descripcion del titulo", "memo" : "Descripcion del memo" , "entity" : "50" , "entitystatus": "8" , "department" : "20", "class":"126","location":"5", 
 "cat_cliente": "2" , "item_global" : "45" , "cantidad":"1", "monto":"344", 
-"item":"50", "descripcion":"Test Articulo num 2", "quantity":"1", "costo": "100", "costototal":"100", "preciounit":"179.20", "preciototal":"170.20"}]
+"item":"50", "descripcion":"Test Articulo num 2", "quantity":"1", "costo": "100", "costototal":"100", "preciounit":"179.20", "preciototal":"179.20"}]
